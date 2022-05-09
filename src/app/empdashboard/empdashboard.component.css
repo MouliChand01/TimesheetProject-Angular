@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.sideNavBar{
+    height: 100%;
+    font-family: roboto;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    display: inline-block;
+    position: fixed;
+    width: 230px;
+    background: #f3f3f3;
+    height: calc(100vh - 128px);
+    overflow: hidden;
+    padding: 20px;
+    overflow: auto;
+    color: black;
+}
+.int{
+    width: 85px;
+    height: 35px;
+    margin: 10px 4px 2px 2px;
+    padding: 15px;
+}
+.employeedata p{
+    margin: 10px;
+    font-weight: 300;
+}
+#pickupdate{
+    margin-bottom:7px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50% !important;
+}
+.profile{
+    text-align: center;
+    margin: 10px;
+}

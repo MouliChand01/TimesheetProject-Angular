@@ -1,0 +1,41 @@
+<div class="dashboard">
+  <div class="row">
+    <div class="col-2">
+      <div class="sideNavBar" style="height: 86%;margin-left: 22px;">
+        <div class="profile">
+          <div class="imglogo">
+            <img src="{{EmployeData.src}}" alt="EmployeeImage">
+          </div>
+          <h6>{{EmployeData.name}}</h6>
+          <h6>{{EmployeData.role}}</h6>
+          <h6>{{EmployeData.empid}}</h6>
+          <h6>{{EmployeData.email}}</h6>
+        </div>
+        <hr>
+        <hr>
+        <div class="employeedata">
+          <div>
+            <input type="date" class="form-control" id="pickupdate">
+          </div>
+          <div>
+            <button class="btn btn-primary" (click)="clockin()" [disabled]="clicked">Clock-in</button> &nbsp;
+            <button class="btn btn-primary" (click)="clockout()" [disabled]="clicked1">clock-out</button>
+          </div>
+          <div>
+            <p *ngIf="show">Check-InTime :{{clockinTime}}</p>
+            <p *ngIf="show1">Check-OutTime:{{clockoutTime}}</p>
+          </div>
+          <div>
+            <input class="int" type="text" [(ngModel)]="totalwork" placeholder="00:00">
+            <input class="int" type="text" [(ngModel)]="totalbreak" placeholder="00:00">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-10">
+      <timesheet-component></timesheet-component>
+    </div>
+
+  </div>
+
+</div>

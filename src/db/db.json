@@ -1,0 +1,56 @@
+{
+    "EmployeeData": [
+        {
+          "id": 1,
+          "name": "Mouli Ramadasu",
+          "batch": "OLIC-600",
+          "empid": "21312",
+          "email": "mouli.ramadasu@ojas-it.com",
+          "role": "Trainee SoFtWareEngineer",
+          "password": "12345678",
+          "src": "assets/mouli.png"
+        },
+        {
+          "id": 2,
+          "name": "Siva sai Kumar",
+          "batch": "OLIC-600",
+          "empid": "21322",
+          "email": "siva@ojas-it.com",
+          "role": "Trainee SoFtWareEngineer",
+          "password": "12345678",
+          "src": "assets/siva.png"
+        },
+        {
+          "id": 3,
+          "name": "yesuRaju siddamsetti",
+          "batch": "OLIC-600",
+          "empid": "21306",
+          "email": "raju@ojas-it.com",
+          "role": "Trainee SoFtWareEngineer",
+          "password": "12345678",
+          "src": "assets/raju.png"
+        },
+        {
+          "name": "krishna",
+          "email": "sskrishna@gmail.com",
+          "empid": "21310",
+          "role": "trinee Software",
+          "batch": "OLIC-600",
+          "password": "12345678",
+          "id": 4,
+          "src": "assets/krishna.png"
+        },
+        {
+          "name": "sravankumar thati",
+          "email": "sravanthati111@gamil.com",
+          "empid": "21306",
+          "role": "senior developer",
+          "batch": "OLIC-600",
+          "password": "12345",
+          "id": 5
+        }
+    ],
+    "EventData":[
+      
+    ]
+}

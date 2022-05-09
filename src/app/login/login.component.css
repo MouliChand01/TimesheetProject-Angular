@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.LoginPage{
+    background-image: url("../../assets/loginBackground.jpg");
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    background: rgb(186 201 196);
+}
+.left{
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+.right{
+    margin: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 50%;
+    margin-top: 196px;
+    margin-left: 217px;
+}
+form input{
+    margin:5px ;
+}
+h1{
+    color: rgb(253, 253, 253);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.forgetPassWord{
+    cursor: pointer;
+}
+#str1{
+    border: none;
+    box-shadow:0 0 30px skyblue; 
+    text-decoration:line-through rgb(20, 6, 148);
+    font-size: larger;
+    
+}
+#str2{
+    border: none;
+    box-shadow:0 0 30px skyblue; 
+    font-size: larger;
+}
